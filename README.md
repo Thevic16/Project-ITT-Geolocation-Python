@@ -9,5 +9,7 @@ pip install geocoder
 Then you can try this one
 
 import geocoder
+
 myloc = geocoder.ip('me')
+
 print(myloc.latlng)
